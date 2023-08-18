@@ -1,7 +1,7 @@
 # Atividade-01
 Este repositório contém os arquivos e estilos para a atividade de introdução ao HTML parte01. A atividade tem como objetivo fazer uma página web implemtando os seguintes requisitos:
 
-##Requisitos
+## Requisitos
 
 1. Cabeçalho com Nome do Site
 2. Título da Página
