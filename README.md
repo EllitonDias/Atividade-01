@@ -11,7 +11,7 @@ Este repositório contém os arquivos e estilos para a atividade de introdução
 ## Conteúdo
 
 - `index.html`: O arquivo HTML principal da página.
-- `styles.css`: O arquivo CSS com os estilos aplicados à página.
+- `style.css`: O arquivo CSS com os estilos aplicados à página.
 - `img/`: Pasta contendo arquivos de imagens utilizados.
 
   
