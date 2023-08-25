@@ -29,7 +29,7 @@
         </nav>
     </header>
     <!--Home está armazenada todas as outras informações, como tabelas, h1 e letras em negrito-->
-    <article class="home">
+    <div class="home">
         <div class="home-info">
             <h1>Atividade 01</h1>
             <h2>HTML</h2>
@@ -38,40 +38,44 @@
                 <strong>Matrícula: </strong>499843
             </p>
             <h3>Tabela de Disciplinas</h3>
-            <table>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Disciplina</th>
-                            <th>Local</th>
-                            <th>Horário</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>AVALIAÇÃO DA INTERAÇÃO HUMANO-COMPUTADOR</strong></td>
-                            <td>Campus Quixadá </td>
-                            <td>QUA 15:30-17:30
-                                SEX 13:30-15:30</td>
-                        </tr>
-                        <tr>
-                            <td><strong>LINGUAGENS DE MARCAÇÃO E SCRIPTS</strong></td>
-                            <td>Campus Quixadá</td>
-                            <td>QUI 15:30-17:30
-                                SEX 15:30-17:30</td>
-                        </tr>
-                        <tr>
-                            <td><strong>MINERAÇÃO DE DADOS</strong></td>
-                            <td>Campus Quixadá</td>
-                            <td>QUI 10:00-12:00
-                                SEX 10:00-12:00</td>
-                        </tr>
-                        <tr>
-                            <td><strong>PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA</strong></td>
-                            <td>Campus Quixadá</td>
-                            <td>QUA 13:30-15:30</td>
-                        </tr>
-                </table>
+
+            <div class="form-container">
+
+                <form class="form" action="https://www.w3schools.com/action_page.php" method="get">
+                    <label for="Nome">Nome até 15 caracteres:</label>
+                    <input type="text" name="name-user" placeholder="Nome Usuário" maxlength="15" id="name">
+
+                    <label for="campo">Campo para leitura</label>
+                    <input type="text" value="Campo para leitura" id="campo" readonly>
+
+                    <label for="numero">Número entre 25000 e 30000</label>
+                    <input type="number" name="number" id="number" min="25000" max="30000">
+
+                    <label for="radio">Qual você prefere:</label>
+                    <div class="radio-inputs">
+                        <label class="radio">
+                            <input type="radio" name="radio" value="Angular" id="Angular">
+                            <span class="name">Angular</span>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="radio" value="React" id="React">
+                            <span class="name">React</span>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" name="radio" value="Vue" id="Vue">
+                            <span class="name">Vue</span>
+                        </label>
+                    </div>
+
+                    <div class="checkbox-container">
+                        <label for="checkbox">Aceita enviar suas informações?</label>
+                        <input type="checkbox" name="send" id="send" value="Sim">
+                    </div>
+
+                    <button class="btn" type="submit">Enviar</button>
+                </form>
+            </div>
 
         </div>
         <div class="home-img">
@@ -79,12 +83,12 @@
                 <img src="img/Ufc.png" alt="Logo UFC">
             </div>
         </div>
-        </div>
-        <!--Por ultimo adicionei um footer só para colocar a data e o GitHub-->
-        <footer>
-            <p><b>18/08/2023</b> Elliton Dias - Landing Page</p>
-            <a href="https://github.com/EllitonDias/Atividade-01">GitHub</a>
-        </footer>
+    </div>
+    <!--Por ultimo adicionei um footer só para colocar a data e o GitHub-->
+    <footer>
+        <p><b>18/08/2023</b> Elliton Dias - Landing Page</p>
+        <a href="https://github.com/EllitonDias/Atividade-01">GitHub</a>
+    </footer>
 </body>
 
 </html>
