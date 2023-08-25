@@ -156,10 +156,10 @@ header {
     border: 1 #ccc;  
     border-radius: 50px;
     background-image: linear-gradient(135deg, rgb(0, 0, 148) 0%, rgb(0, 0, 150) 100%); 
-    box-shadow: 0 10px  10px -6px white;    
+    box-shadow: 0 6px 6px -6px rgba(255, 255, 255, 0.712);     
     outline: none;
     cursor: pointer;
-    border: 2px solid white;  
+    border: 1px solid rgba(255, 255, 255, 0.671);   
     font-size: 14px; 
     color: white;
 }
