@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pageStyle.css" />
+    <title>Atividade 03</title>
+</head>
+
+<body>
+    <!--O hearder onde está armazenado a logo e a navbar para ir para os links de outras paginas assim como o professor pediu-->
+    <header>
+        <a href="https://es.quixada.ufc.br"><img src="img/Ufc.png" alt="logo" class="logo" /></a>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a
+                        href="https://github.com/jeffersoncarvalho/ufc_2023_2/blob/main/LMS/TAREFAS/T01%20-%20HTML.pdf">Atividade</a>
+                </li>
+                <li><a href="https://www.instagram.com/ufcquixada/">UFC</a></li>
+                <li><a href="https://es.quixada.ufc.br">Curso</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/elliton-dias-506925275/"><img src="img/linkedin.png"
+                            alt="Linkedin" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Home está armazenada todas as outras informações, como tabelas, h1 e letras em negrito-->
+    <main class="home">
+        <div class="home-info">
+            <h1>Atividade 01</h1>
+            <h2>HTML</h2>
+            <p>
+                <strong>Aluno:</strong> Antonio Elliton Dias Gomes
+                <strong>Matrícula: </strong>499843
+            </p>
+            <h3>Tabela de Disciplinas</h3>
+
+            <!--
+                    Formulário dentro de um article!!
+                -->
+
+            <article class="form-container">
+
+                <form class="form" action="https://www.w3schools.com/action_page.php" method="get">
+                    <!--Input name-->
+                    <label for="Nome">Nome até 15 caracteres:</label>
+                    <input type="text" name="name-user" placeholder="Nome Usuário" maxlength="15" id="name">
+                    <!--Input campo para leitura-->
+                    <label for="campo">Campo para leitura</label>
+                    <input type="text" value="Campo para leitura" id="campo" readonly>
+
+                    <!--Input number-->
+                    <label for="numero">Número entre 25000 e 30000</label>
+                    <input type="number" name="number" id="number" min="25000" max="30000" value="25000">
+                    <!--Radio-->
+                    <label for="radio">Qual você prefere:</label>
+                    <div class="radio-inputs">
+                        <label class="radio">
+                            <input type="radio" name="framework" value="Angular" id="Angular">
+                            <span class="name">Angular</span>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="framework" value="React" id="React">
+                            <span class="name">React</span>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" name="framework" value="Vue" id="Vue">
+                            <span class="name">Vue</span>
+                        </label>
+                    </div>
+                    <!--Checkbox-->
+                    <div class="checkbox-container">
+                        <label for="checkbox">Aceita enviar suas informações?</label>
+                        <input type="checkbox" name="send" id="send" value="Sim" checked>
+                    </div>
+                    <!--Btn submit-->
+                    <button class="btn" type="submit">Enviar</button>
+                </form>
+            </article>
+
+        </div>
+        <!--Article imagem-->
+        <article class="home-img">
+            <div class="square">
+                <img src="img/Ufc.png" alt="Logo UFC">
+            </div>
+        </article>
+    </main>
+    <!--Por ultimo adicionei um footer só para colocar a data e o GitHub-->
+    <footer>
+        <p><b>18/08/2023</b> Elliton Dias - Landing Page</p>
+        <a href="https://github.com/EllitonDias/Atividade-01">GitHub</a>
+    </footer>
+</body>
+
+</html>
