@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+}
+
+.sidebar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 20px;
+}
+
+.nav a{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+    height: 40px;
+    margin: 10px;
+}
+
+.nav a:hover  {
+    background-color: blue;
+    color: white;
+} 
+
+.flutter {
+    font-family: "Times New Roman", Times, serif;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.flutter p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.flutter h1 {
+    color: blue;
+}
+
+.getX {
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px 0px 10px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+
+.getX h1 {
+    color: blueviolet;
+}
+
+.getX p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.content {
+    margin-left: 400px;
+    padding: 20px;
+}
+
+.sidebar-text {
+    float: left;
+    margin-left: 10px;
+    color: #333;
+    font-size: 18px;
+}
